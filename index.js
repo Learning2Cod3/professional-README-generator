@@ -41,8 +41,37 @@ const questions = [{
     name: 'Enter GitHub Link'
 },{
     type: 'input',
-    message: 'What is your Email address?',
+    message: 'What is your Email address? Email is important incase anyone has any questions.',
     name: 'Enter email address.'
-}
+},{
+    type: 'input',
+    message: 'Please describe what type of test you conducted during your project',
+    name: 'Please describe'
+},
 
-}]
+]
+
+// fuction to transfer all answered questions to README 
+function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, function(err) {
+        console.log(fileName)
+        console.log(data)
+        if (err) {
+            return console.log(err)
+        } else {
+            console.log('sucess')
+        }
+        })
+    }
+
+    // fuction to finalize program
+    function init() {
+        inquirer.prompt(questions)
+        .then(function(data) {
+            writeToFile("README.md", generatorMarkdown(data));
+        })
+    }
+
+// calling to initialze the program
+init();
