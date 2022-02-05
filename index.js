@@ -17,40 +17,44 @@ const questions = [{
 
 }, {
     type:'Input',
-    message:'What is the purpose of your project? Give a description',
+    message:'Please give a brief description of your project',
     name: 'Descrption'
 },{
     type:'input',
     message:'Table of contents',
-    name: 'TOC'
+    name: 'Table of contents'
 },{
     type:'input',
-    message: 'What does the user need in order to work with and or install your application',
-    name: 'Please explain'
+    message: 'What are the installation requirements in order for a user to use your application?',
+    name: 'Installation'
 },{
     type: 'input',
-    message: 'How do you use your application? Please give a detailed discription',
-    name: 'description'
+    message: 'Please give the user a description on how the application works' ,
+    name: 'Usage'
 },{
     type: 'input',
-    message: 'Is your application heavy on CPU usage?',
-    name: 'Hardware requirements in order to install'
+    message: 'What License did you use for this porject?',
+    name: 'License'
 },{
     type: 'input',
-    message: 'Which License would you like to use for your application? Please choose from the following...',
-    name: 'Publice Domain, LGPL, Copyleft, Proprietary'
+    message: 'Did anyone contribute to this project? If so, please describe?',
+    name: 'Contribution'
 },{
     type: 'input',
-    message: 'What is your GitHub?',
-    name: 'Enter GitHub Link'
+    message: 'What commands are required in order to test this application?',
+    name: 'Test'
 },{
     type: 'input',
-    message: 'What is your Email address? Email is important incase anyone has any questions.',
-    name: 'Enter email address.'
+    message: 'Please provide contact info for inquiries.',
+    name: 'Questions.'
 },{
     type: 'input',
-    message: 'Please describe what type of test you conducted during your project',
-    name: 'Please describe'
+    message: 'What is your GITHUB username?',
+    name: 'Github'
+},{
+    type:'input',
+    message:'What is your email?',
+    name: 'Email'
 }
 
 ];

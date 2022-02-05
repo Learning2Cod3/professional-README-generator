@@ -1,25 +1,25 @@
 
-# Up town funck
-https://github.com/undefined/Up town funck
+# Profesional README Generator
+https://github.com/undefined/Profesional README Generator
 # Description
 undefined
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contribution](#contribution)
 * [Tests](#tests)
-* [Questions](#questions)
+* [GITHUB](#GITHUB)
 # Installation
-The following necessary dependencies must be installed to run the application properly: undefined
+The following necessary dependencies must be installed to run the application properly: Node,Terminal,Command
 # Usage
-In order to use this app, undefined
+In order to use this app, All you have to do is initiate the command index.js after node and you'll be prompt to a series of questions for a README.md file
 # License
-This project is licensed under the undefined license. 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+This project is licensed under the [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/) license. 
+![GitHub license]([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # Contributing
 ​Contributors: undefined
 # Tests
 The following is needed to run the test: undefined
 # Questions
-If you have any questions about the repo, open an issue or contact undefined directly at : undefined.
+If you have any questions about the repo, open an issue or contact undefined directly at : omarkange@hotmail.com.

@@ -28,9 +28,9 @@ ${data.Description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contribution](#contribution)
 * [Tests](#tests)
-* [Questions](#questions)
+* [GITHUB](#GITHUB)
 # Installation
 The following necessary dependencies must be installed to run the application properly: ${data.Installation}
 # Usage
