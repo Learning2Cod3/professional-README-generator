@@ -37,7 +37,7 @@ The following necessary dependencies must be installed to run the application pr
 In order to use this app, ${data.Usage}
 # License
 This project is licensed under the ${data.License} license. 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license]([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # Contributing
 ​Contributors: ${data.Contributing}
 # Tests
