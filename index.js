@@ -38,23 +38,23 @@ const questions = [{
 },{
     type: 'input',
     message: 'Did anyone contribute to this project? If so, please describe?',
-    name: 'Contribution'
+    name: 'contributing'
 },{
     type: 'input',
     message: 'What commands are required in order to test this application?',
     name: 'Tests'
 },{
     type: 'input',
-    message: 'Please provide contact info for inquiries.',
+    message: 'Please provide instructions on how someone can reach out',
     name: 'Questions.'
 },{
     type: 'input',
     message: 'What is your GITHUB username?',
-    name: 'username'
+    name: 'questions'
 },{
     type:'input',
     message:'What is your email?',
-    name: 'Email'
+    name: 'Questions'
 }
 
 ];

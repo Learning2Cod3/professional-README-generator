@@ -1,25 +1,25 @@
 
-# Profesional README Generator
-https://github.com/undefined/Profesional README Generator
+# Professional Readme.md Generator
+https://github.com/undefined/Professional Readme.md Generator
 # Description
-undefined
+This is a unique way of creating a README file for any project that you're working on
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contribution](#contribution)
+* [contributing](#contributing)
 * [Tests](#tests)
-* [GITHUB](#GITHUB)
+* [username](#username)
 # Installation
-The following necessary dependencies must be installed to run the application properly: Node,Terminal,Command
+The following necessary dependencies must be installed to run the application properly: Please have Node,Terminal and CMD installed in order to use this CLI
 # Usage
-In order to use this app, All you have to do is initiate the command index.js after node and you'll be prompt to a series of questions for a README.md file
+In order to use this app, 
 # License
-This project is licensed under the [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/) license. 
+This project is licensed under the  license. 
 ![GitHub license]([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # Contributing
-​Contributors: undefined
+Contributing: undefined
 # Tests
-The following is needed to run the test: undefined
+The following is needed to run the test: Node index.js 
 # Questions
-If you have any questions about the repo, open an issue or contact undefined directly at : omarkange@hotmail.com.
+If you have any questions about the repo, open an issue or contact undefined directly at : undefined.

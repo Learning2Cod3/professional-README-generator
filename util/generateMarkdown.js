@@ -28,7 +28,7 @@ ${data.Description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [​Contributors](#​Contributors)
+* [contributing](#contributing)
 * [Tests](#tests)
 * [username](#username)
 # Installation
