@@ -18,7 +18,7 @@ const questions = [{
 }, {
     type:'Input',
     message:'Please give a brief description of your project',
-    name: 'Descrption'
+    name: 'Description'
 },{
     type:'input',
     message:'Table of contents',
@@ -42,7 +42,7 @@ const questions = [{
 },{
     type: 'input',
     message: 'What commands are required in order to test this application?',
-    name: 'Test'
+    name: 'Tests'
 },{
     type: 'input',
     message: 'Please provide contact info for inquiries.',
@@ -50,7 +50,7 @@ const questions = [{
 },{
     type: 'input',
     message: 'What is your GITHUB username?',
-    name: 'Github'
+    name: 'username'
 },{
     type:'input',
     message:'What is your email?',

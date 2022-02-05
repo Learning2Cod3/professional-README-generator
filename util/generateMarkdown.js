@@ -28,9 +28,9 @@ ${data.Description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contribution](#contribution)
+* [​Contributors](#​Contributors)
 * [Tests](#tests)
-* [GITHUB](#GITHUB)
+* [username](#username)
 # Installation
 The following necessary dependencies must be installed to run the application properly: ${data.Installation}
 # Usage
@@ -39,7 +39,7 @@ In order to use this app, ${data.Usage}
 This project is licensed under the ${data.License} license. 
 ![GitHub license]([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # Contributing
-​Contributors: ${data.Contributing}
+Contributing: ${data.Contributing}
 # Tests
 The following is needed to run the test: ${data.Tests}
 # Questions
