@@ -1,25 +1,30 @@
 
-# Professional Readme.md Generator
-https://github.com/undefined/Professional Readme.md Generator
+# Profesional-README-generator
 # Description
-This is a unique way of creating a README file for any project that you're working on
+For this project I created a README generator to create readme.md files
 # Table of Contents 
-* [Installation](#installation)
-* [Usage](#usage)
+* [installation](#installation)
+* [usage](#usage)
 * [License](#license)
 * [contributing](#contributing)
-* [Tests](#tests)
-* [username](#username)
+* [tests](#tests)
+* [contact](#contact)
+* [github](#github)
+* [questions](#questions)
 # Installation
-The following necessary dependencies must be installed to run the application properly: Please have Node,Terminal and CMD installed in order to use this CLI
+The following necessary dependencies must be installed to run the application properly: Node and Gitbash
 # Usage
-In order to use this app, 
+In order to use this app you need: The application works by presenting a series of questions for a pro readme generator
 # License
 This project is licensed under the  license. 
-![GitHub license]([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-# Contributing
-Contributing: undefined
+([![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+# contributing
+contributing: Google
 # Tests
-The following is needed to run the test: Node index.js 
+The following is needed to run the test: node index.js
+# Contact
+If you would like any additional detail, please follow the instructions on how you can reach out: By email
 # Questions
-If you have any questions about the repo, open an issue or contact undefined directly at : undefined.
+Github username: https://github.com/Learning2cod3/Profesional-README-generator
+
+If you have any questions about the repo, open an issue or have general questions you can reach me directly at: omarkange22@gmail.com 
