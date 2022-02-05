@@ -1,7 +1,11 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+const inquirer = require("inquirer");
 const util = require('util');
-const generatorMarkdown = require('./util/generateMarkdown');
+const fs = require('fs');
+
+
+const generateMarkdown = require('./util/generateMarkdown.js');
+
+
 
 
 //inquirer to generate questions 
@@ -47,11 +51,13 @@ const questions = [{
     type: 'input',
     message: 'Please describe what type of test you conducted during your project',
     name: 'Please describe'
-},
+}
 
-]
+];
 
-// fuction to transfer all answered questions to README 
+
+
+// function to write README file
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, function(err) {
@@ -60,18 +66,38 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err)
         } else {
-            console.log('sucess')
+            console.log("success")
         }
-        })
-    }
+    })
 
-    // fuction to finalize program
-    function init() {
-        inquirer.prompt(questions)
+}
+
+
+
+
+
+// function to finalize program
+function init() {
+    inquirer.prompt(questions)
         .then(function(data) {
-            writeToFile("README.md", generatorMarkdown(data));
-        })
-    }
+            writeToFile('README.md', generateMarkdown(data));
+            console.log(data)
 
-// calling to initialze the program
+        })
+
+}
+
+// function call to initialize program
 init();
+
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+function renderLicenseBadge(license) {'[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'}
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {}
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {''}

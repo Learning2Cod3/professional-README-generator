@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This is a high level README generator for quick README task creations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learning2Cod3/professional-README-generator.git"
+  },
+  "author": "Omar Kange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Learning2Cod3/professional-README-generator/issues"
+  },
+  "homepage": "https://github.com/Learning2Cod3/professional-README-generator#readme",
+  "dependencies": {
+    "util": "^0.12.4"
+  }
+}
