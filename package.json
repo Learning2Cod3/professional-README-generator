@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Learning2Cod3/professional-README-generator#readme",
   "dependencies": {
+    "inquirer": "^8.2.0",
     "util": "^0.12.4"
   }
 }
